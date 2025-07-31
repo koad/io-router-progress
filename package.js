@@ -1,15 +1,14 @@
 Package.describe({
 	name    : 'koad:io-router-progress',
-	version : '1.0.3',
+	version : '3.3.0',
 	summary : 'Progressbar for koad:io-router',
 });
 
 Package.onUse(function (api) {
-	api.versionsFrom('METEOR@1.2');
 
 	api.use([
 		'coffeescript',
-		'less@3.0.1',
+		'less',
 		'underscore',
 		'templating',
 		'jquery',
